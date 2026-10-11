@@ -1,0 +1,16 @@
+name: Shinki
+version: 1.0.0
+main: jp.shinki.Shinki
+api-version: '1.21'
+description: Unique Lightning Artifact
+
+commands:
+  artifact:
+    description: 神器の管理
+    usage: /artifact
+    permission: shinki.admin
+
+permissions:
+  shinki.admin:
+    description: 神器の管理権限
+    default: op
